@@ -4,5 +4,5 @@ const app = express();
 app.use("/users", require("./routes/usersRoute"))
 
 app.listen(3001, function(){
-    console.log("Server runnning");
+    console.log("Server is runnning");
 })
